@@ -40,7 +40,7 @@ Summary. An optional shortened abstract.
 tags: [Adversarial Attack]
 
 # Display this page in the Featured widget?
-featured: false
+featured: true
 
 # Custom links (uncomment lines below)
 # links:
