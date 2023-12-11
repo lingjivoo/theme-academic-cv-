@@ -38,10 +38,10 @@ education:
   courses:
     - course: MEng in Computer Science and Technology
       institution: Shenzhen University
-      year: 2020
+      year: 2020-2023
     - course: BEng in Computer Science and Technology
       institution: Guangzhou University
-      year: 2016
+      year: 2016-2020
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons

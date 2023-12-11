@@ -52,6 +52,7 @@ sections:
   #     columns: '1'
   - block: experience
     content:
+      id: experience
       title: Experience
       # Date format for experience
       #   Refer to https://docs.hugoblox.com/customization/#date-format
@@ -62,27 +63,22 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
+        - title: Research Intern
+          company: University of Cambridge
           company_url: ''
-          company_logo: org-gc
+          company_logo: 'https://chengluo.cc/images/Cambridge.png'
           location: California
-          date_start: '2021-01-01'
-          date_end: ''
-          description: |2-
-              Responsibilities include:
-
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
+          date_start: '2022-07-15'
+          date_end: '2022-12-15'
+          description: Reaction Generation in Dyadic Interactions
+        - title: Research Intern
+          company: Baidu Inc.
           company_url: ''
-          company_logo: org-x
+          company_logo: 'https://chengluo.cc/images/baidu.png'
           location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          date_start: '2022-10-12'
+          date_end: '2023-07-06'
+          description: 3D Face Reconstruction
     design:
       columns: '2'
   # - block: accomplishments
@@ -189,17 +185,17 @@ sections:
   #       {{< gallery album="demo" >}}
   #   design:
   #     columns: '1'
-  # - block: collection
-  #   id: featured
-  #   content:
-  #     title: Featured Publications
-  #     filters:
-  #       folders:
-  #         - publication
-  #       featured_only: true
-  #   design:
-  #     columns: '2'
-  #     view: card
+  - block: collection
+    id: featured
+    content:
+      title: Featured Publications
+      filters:
+        folders:
+          - publication
+        featured_only: true
+    design:
+      columns: '2'
+      view: card
   - block: collection
     content:
       title: Recent Publications
@@ -214,16 +210,16 @@ sections:
     design:
       columns: '2'
       view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      columns: '2'
-      view: compact
+  # - block: collection
+  #   id: talks
+  #   content:
+  #     title: Recent & Upcoming Talks
+  #     filters:
+  #       folders:
+  #         - event
+  #   design:
+  #     columns: '2'
+  #     view: compact
   - block: tag_cloud
     content:
       title: Popular Topics

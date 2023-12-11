@@ -3,8 +3,11 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Academic # Website name
+title: Cheng Luo # Website name
 baseURL: 'https://example.com/' # Website URL
+
+
+
 
 ############################
 ## LANGUAGE
