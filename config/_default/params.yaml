@@ -6,7 +6,7 @@
 # Appearance
 
 appearance:
-  color: blue
+  color: pink
   theme_day: minimal
   theme_night: minimal
   font: minimal

@@ -3,7 +3,7 @@
 title: Cheng Luo
 
 # Name pronunciation (optional)
-name_pronunciation: 罗 成
+# name_pronunciation: 罗成
 
 # Full name (for SEO)
 first_name: Cheng
@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Student
+role: 罗成
 
 # Organizations/Affiliations to show in About widget
 organizations:
