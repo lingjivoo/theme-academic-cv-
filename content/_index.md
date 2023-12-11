@@ -66,7 +66,7 @@ sections:
         - title: Research Intern
           company: University of Cambridge
           company_url: ''
-          company_logo: 'https://chengluo.cc/images/Cambridge.png'
+          company_logo: org-u
           location: California
           date_start: '2022-07-15'
           date_end: '2022-12-15'
@@ -74,7 +74,7 @@ sections:
         - title: Research Intern
           company: Baidu Inc.
           company_url: ''
-          company_logo: 'https://chengluo.cc/images/baidu.png'
+          company_logo: org-b
           location: California
           date_start: '2022-10-12'
           date_end: '2023-07-06'
