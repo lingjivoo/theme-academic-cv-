@@ -1,9 +1,9 @@
 ---
 # Display name
-title: 罗成
+title: Cheng Luo
 
 # Name pronunciation (optional)
-name_pronunciation: Cheng Luo
+name_pronunciation: 罗 成
 
 # Full name (for SEO)
 first_name: Cheng
