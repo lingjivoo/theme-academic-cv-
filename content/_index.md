@@ -86,7 +86,7 @@ sections:
     id: updates
     content:
       title: Updates
-      text: ''
+      # text: ''
       # subtitle: ''
       # text: ''
       # Choose how many pages you would like to display (0 = all pages)
@@ -234,7 +234,7 @@ sections:
       filters:
         folders:
           - publication
-        exclude_featured: true
+        # exclude_featured: true
     design:
       columns: '2'
       view: citation
