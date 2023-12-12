@@ -65,16 +65,16 @@ sections:
         - title: Research Intern
           company: University of Cambridge
           company_url: ''
-          # company_logo: org-u
-          location: California
+          company_logo: Cambridge
+          # location: California
           date_start: '2022-07-15'
           date_end: '2022-12-15'
           description: Reaction Generation in Dyadic Interactions
         - title: Research Intern
           company: Baidu Inc.
           company_url: ''
-          # company_logo: org-b
-          location: California
+          company_logo: baidu
+          # location: California
           date_start: '2022-10-12'
           date_end: '2023-07-06'
           description: 3D Face Reconstruction
