@@ -1,23 +1,25 @@
 ---
-title: 'Online Refinement of Low-level Feature Based Activation Map for Weakly Supervised Object Localization'
+title: 'Boosting Adversarial Transferability across Model Genus by Deformation-Constrained Warping'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Jinheng Xie 
+  - Qinliang Lin
   - admin
-  - Xiangping Zhu
-  - Ziqi Jin
-  - Weizeng Lu
+  - Zenghao Niu
+  - Xilin He
+  - Weicheng Xie
   - Linlin Shen 
+  - Yuanbo Hou 
+  - Siyang Song
 
 # Author notes (optional)
-# author_notes:
-#   - 'Equal contribution'
-#   - 'Equal contribution'
+author_notes:
+  - 'Equal contribution'
+  - 'Equal contribution'
 
-date: '2021-07-14T00:00:00Z'
+date: '2024-01-21T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -29,15 +31,15 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *IEEE International Conference on Computer Vision*
-publication_short: In *ICCV 2021*
+publication: In *AAAI Conference on Artificial Intelligence*
+publication_short: In *AAAI 2024*
 
-abstract: We present a two-stage learning framework for weakly supervised object localization (WSOL). While most previous efforts rely on high-level feature based CAMs (Class Activation Maps), this paper proposes to localize objects using the low-level feature based activation maps. In the first stage, an activation map generator produces activation maps based on the low-level feature maps in the classifier, such that rich contextual object information is included in an online manner. In the second stage, we employ an evaluator to evaluate the activation maps predicted by the activation map generator. Based on this, we further propose a weighted entropy loss, an attentive erasing, and an area loss to drive the activation map generator to substantially reduce the uncertainty of activations between object and background, and explore less discriminative regions. Based on the low-level object information preserved in the first stage, the second stage model gradually generates a well-separated, complete, and compact activation map of object in the image, which can be easily thresholded for accurate localization.
+abstract: Adversarial examples produced by a surrogate model are usually not well-transferable to target systems. To address this problem, various transferability enhancement approaches, such as input transformation and model augmentation, have emerged. However, they show less potential for attacking target systems having different model genera from the surrogate model. In this paper, we propose a general attack strategy, dubbed Deformation-Constrained Warping Attack (DeCoWA), that can overcome this limitation and is applied to cross model genus attack. Specifically, DeCoWA firstly augments input examples via an elastic deformation, namely Deformation-Constrained Warping (DeCoW), to obtain a rich collection of augmented local input details and content. To avoid severe distortion of global semantics led by random deformation, DeCoW further constrains the strength and direction of the warping transformation by a proposed adaptive control strategy. Extensive experiments also demonstrate that the transferable examples crafted by our DeCoWA on CNN surrogates can significantly hinder the performance of Transformers (and vice versa) on various tasks, including image classification, video action recognition, and audio recognition.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags: [Weakly Supervised]
+tags: [Adversarial Attack]
 
 # Display this page in the Featured widget?
 featured: false
@@ -47,8 +49,8 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://openaccess.thecvf.com/content/ICCV2021/papers/Xie_Online_Refinement_of_Low-Level_Feature_Based_Activation_Map_for_Weakly_ICCV_2021_paper.pdf'
-url_code: 'https://github.com/Sierkinhane/ORNet'
+url_pdf: ''
+url_code: ''
 # url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
 url_poster: ''
 url_project: ''
