@@ -6,11 +6,10 @@
 # Appearance
 
 appearance:
-  color: pink
   theme_day: minimal
   theme_night: minimal
   font: minimal
-  font_size: M
+  font_size: L
 
 # SEO
 

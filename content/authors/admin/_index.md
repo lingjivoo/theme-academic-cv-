@@ -1,13 +1,13 @@
 ---
 # Display name
-title: Cheng Luo
+title: 吳健雄
 
 # Name pronunciation (optional)
-# name_pronunciation: 罗成
+name_pronunciation: Chien Shiung Wu
 
 # Full name (for SEO)
-first_name: Cheng
-last_name: Luo
+first_name: Shiung Wu
+last_name: Chien
 
 # Status emoji
 status:
@@ -17,71 +17,74 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: 罗成
+role: Professor of Artificial Intelligence
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Shenzhen University
-    url: https://www.szu.edu.cn
+  - name: Stanford University
+    url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: I earned my Master's degree from the College of Computer Science and Software Engineering at Shenzhen University (SZU), under the co-supervision of A/Prof. Weicheng Xie and Prof. Linlin Shen. Prior to that, I completed my Bachelor's degree in Computer Science at Guangzhou University (GZHU) in 2020. My research revolves around Affective AI, Healthcare AI, and their interactions and collaborations with humans.
+bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 # Interests to show in About widget
 interests:
-  - Affective AI
-  - Healthcare AI
-  - Generative AI
+  - Artificial Intelligence
+  - Computational Linguistics
+  - Information Retrieval
 
 # Education to show in About widget
 education:
   courses:
-    - course: MEng in Computer Science and Technology
-      institution: Shenzhen University
-      year: 2020-2023
-    - course: BEng in Computer Science and Technology
-      institution: Guangzhou University
-      year: 2016-2020
+    - course: PhD in Artificial Intelligence
+      institution: Stanford University
+      year: 2012
+    - course: MEng in Artificial Intelligence
+      institution: Massachusetts Institute of Technology
+      year: 2009
+    - course: BSc in Artificial Intelligence
+      institution: Massachusetts Institute of Technology
+      year: 2008
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-# skills:
-#   - name: Technical
-#     items:
-#       - name: Python
-#         description: ''
-#         percent: 80
-#         icon: python
-#         icon_pack: fab
-#       - name: Data Science
-#         description: ''
-#         percent: 100
-#         icon: chart-line
-#         icon_pack: fas
-#       - name: SQL
-#         description: ''
-#         percent: 40
-#         icon: database
-#         icon_pack: fas
-#   - name: Hobbies
-#     color: '#eeac02'
-#     color_border: '#f0bf23'
-#     items:
-#       - name: Hiking
-#         description: ''
-#         percent: 60
-#         icon: person-hiking
-#         icon_pack: fas
-#       - name: Cats
-#         description: ''
-#         percent: 100
-#         icon: cat
-#         icon_pack: fas
-#       - name: Photography
-#         description: ''
-#         percent: 80
-#         icon: camera-retro
-#         icon_pack: fas
+skills:
+  - name: Technical
+    items:
+      - name: Python
+        description: ''
+        percent: 80
+        icon: python
+        icon_pack: fab
+      - name: Data Science
+        description: ''
+        percent: 100
+        icon: chart-line
+        icon_pack: fas
+      - name: SQL
+        description: ''
+        percent: 40
+        icon: database
+        icon_pack: fas
+  - name: Hobbies
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+      - name: Hiking
+        description: ''
+        percent: 60
+        icon: person-hiking
+        icon_pack: fas
+      - name: Cats
+        description: ''
+        percent: 100
+        icon: cat
+        icon_pack: fas
+      - name: Photography
+        description: ''
+        percent: 80
+        icon: camera-retro
+        icon_pack: fas
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -117,5 +120,5 @@ social:
 highlight_name: true
 ---
 
-I earned my Master's degree from the College of Computer Science and Software Engineering at Shenzhen University (SZU), under the co-supervision of A/Prof. Weicheng Xie and Prof. Linlin Shen. Prior to that, I completed my Bachelor's degree in Computer Science at Guangzhou University (GZHU) in 2020. My research revolves around Affective AI, Healthcare AI, and their interactions and collaborations with humans.
+Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
 {style="text-align: justify;"}
