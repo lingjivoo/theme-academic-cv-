@@ -82,7 +82,7 @@ sections:
           description: 3D Face Reconstruction
     design:
       columns: '2'
-  - block: collection
+  - block: markdown
     id: updates
     content:
       title: Updates
@@ -94,12 +94,12 @@ sections:
       filters:
         folders:
           - updates
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
+        # author: ""
+        # category: ""
+        # tag: ""
+        # exclude_featured: false
+        # exclude_future: false
+        # exclude_past: false
       # Choose how many pages you would like to offset by
       offset: 0
       # Page order: descending (desc) or ascending (asc) date.
