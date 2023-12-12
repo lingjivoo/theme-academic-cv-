@@ -38,6 +38,7 @@ interests:
 education:
   courses:
     - course: MEng in Computer Science and Technology
+      icon: envelope
       institution: Shenzhen University
       year: 2020-2023
     - course: BEng in Computer Science and Technology
